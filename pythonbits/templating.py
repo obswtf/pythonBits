@@ -32,11 +32,6 @@ td = tag_enc('td')
 mi = tag_enc('mediainfo')
 s1 = partial(size, tv=1)
 s2 = partial(size, tv=2)  # default
-s3 = partial(size, tv=3)
-s4 = partial(size, tv=4)
-s7 = partial(size, tv=7)
-align = tag_enc('align')
-center = partial(align, tv='center')
 color = tag_enc('color')
 _list = tag_enc('list')
 
